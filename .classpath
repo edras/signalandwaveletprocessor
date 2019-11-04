@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/display"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mathOperators"/>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/display/lib/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/display/lib/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/doc/lib/AppFramework.jar"/>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/doc/lib/swing-worker.jar"/>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/doc/lib/edflib.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/edras/Dropbox/workspace/java/Fuzzy/flanagan.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LDA"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jwave"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
