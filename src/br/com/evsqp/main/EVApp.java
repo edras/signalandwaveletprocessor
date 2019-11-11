@@ -287,8 +287,8 @@ public class EVApp extends SingleFrameApplication {
             public void actionPerformed(ActionEvent e) {
 
                 if (view.getLoadedClasses().getModel().getSize() > 2) {
-                    JOptionPane.showMessageDialog(null, "Só é possível simular possibilidades para 2 classes!"
-                            + "\nO algorítmo não será executado.");
+                    JOptionPane.showMessageDialog(null, "This function can handle only 2 classes!"
+                            + "\nThe algorithm will not execute.");
                     return;
                 }
 

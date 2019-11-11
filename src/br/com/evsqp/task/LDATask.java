@@ -88,9 +88,9 @@ public class LDATask extends EVTask {
 			
 		// inicia janela de LOG
         LogWindowForm log = new LogWindowForm();
-        log.setTitle("Testando possibilidades:");
+        log.setTitle("Checking results:");
         long start = System.currentTimeMillis();
-        log.appendText("Hora de início: " + (new Date(start)));
+        log.appendText("Start time: " + (new Date(start)));
         log.setVisible(true);
 		
 		for (double i = testTrial; i < ldaPossibilities; i++) {
@@ -116,7 +116,7 @@ public class LDATask extends EVTask {
 		}	
 		
 		long stop = System.currentTimeMillis();
-		log.appendText("\nHora de término: " + (new Date(stop)));
+		log.appendText("\nFinish time: " + (new Date(stop)));
 		
 		long total = stop-start;
 		
@@ -126,8 +126,8 @@ public class LDATask extends EVTask {
 		int hours   = (int) ((total / (1000*60*60)) % 24);
 		int days    = (int) (total / (1000*60*60*24));
 		
-		log.appendText("\nTempo total: " + days + "d "+hours+":"+minutes+":"+seconds+"."+ms);
-		log.appendText("\nMelhor ROC: " + formatter.format(max_roc) + " test: " + roc_trial);			
+		log.appendText("\nTotal time: " + days + "d "+hours+":"+minutes+":"+seconds+"."+ms);
+		log.appendText("\nBest ROC: " + formatter.format(max_roc) + " test: " + roc_trial);			
 		
 		return null;
 	}
